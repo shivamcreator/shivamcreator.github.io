@@ -1,0 +1,386 @@
+body{
+  background-color: #000;
+   margin:0;
+}
+
+.parallax{
+  font-family: 'Poppins', sans-serif;
+color: #fff;
+background-image: url("https://cdn.statically.io/img/i.pinimg.com/originals/00/e5/19/00e519672a5160a6f48b4b8962f78027.jpg");
+text-align: left;
+height: 555px;
+  background-attachment: fixed;
+  background-position:   top;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.color{
+  color: #99f3bd;
+  text-shadow: 2px 2px #ff4b5c;
+}
+.color-2{
+  position: absolute;
+  top: 0;
+  right: 12%;
+  color: #99f3bd;
+  text-shadow: 4px 4px #ff4b5c;
+  font-size: 32rem;
+  line-height: 28rem;
+ font-family: 'Poppins', sans-serif;
+  animation: appear 3s ease-in-out both;
+}
+.up0{
+  margin-top: 100px;
+  margin-bottom: 0;
+    animation: appear 2s ease-in both;
+  animation-delay: -0.4s;
+}
+.up1{
+  margin:0px;
+    animation: appear 2s ease-in both;
+    animation-delay: -0.3s;
+}
+.up2{
+  margin:0px;
+  animation: appear 2s ease-in both;
+  animation-delay: -0.2s;
+}
+.sm-quote{
+  font-size: 15px;
+  margin-left: 50px;
+  font-family: sans-serif;
+  animation: in 2s ease-in both;
+  color:  #ff4b5c;
+}
+.parallax p{
+  margin-left: 50px;
+  font-size: 3vw;
+
+}
+.parallax button{
+  position: absolute;
+  left: 50px;
+  top: 28vw;
+  padding: 8px;
+  font-size: 30px;
+ color:  #99f3bd;
+ background:none;
+ border: 1px solid #99f3bd;
+}
+
+.tags{
+  position: absolute;
+  color: #80ffdb;
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+}
+.t{
+  left: 50px;
+  top: 5vw;
+  animation: in 1s ease-in both;
+}
+.t1{
+  right: 20%;
+  animation: in 2s ease-in both;
+}
+.t2{
+  left: 50px;
+  top: 35vw;
+  animation: in 0.75s ease-in both;
+}
+.t3{
+  top: 7vw;
+  left: 30%;
+  animation: in 1.2s ease-in both;
+
+}
+@keyframes appear {
+  0%{opacity: 0; transform: translateX(-150px);}
+  100%{opacity: 1; transform: translateX(0px);}
+}
+@keyframes appear2 {
+  0%{opacity: 0; transform: translateX(-100px);}
+  99%{opacity: 0; transform: translateX(-1px);}
+  100%{opacity: 1; transform: translateX(0px);}
+}
+@keyframes appear3 {
+  0%{opacity: 0; transform: translateX(150px);}
+  100%{opacity: 1; transform: translateX(0px);}
+}
+@keyframes rotate {
+  0%{opacity:0; transform: perspective(400px) rotateY(180deg);}
+  100%{opacity:1; transform: perspective(100px) rotateY(0deg);}
+}
+@keyframes in {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+/* navbar */
+.upper-nav{
+  background-color: #ec4646;
+  height: 41px;
+  border-bottom: 3px solid #30475e;
+  padding-top: 12px;
+}
+.upper-nav a{
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-right: 30px;
+  font-size: 17px;
+  color: #fff;
+  transition: color ease-in 0.15s;
+}
+.fst-item{
+ margin-left: 14vw;
+}
+/* about */
+.about{
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+ text-align: center;
+}
+.about-text{
+  padding-top: 75px;
+  margin: 0;
+  opacity: 0;
+  font-size: 50px;
+}
+.small-dash{
+  height: 1px;
+  width: 60px;
+  margin: auto;
+  border-top: 4px solid black;
+  border-bottom: none;
+  opacity: 0;
+}
+.for-all{
+  animation: appear 1s ease both;
+}
+.for-all1{
+  animation: rotate 2s linear both;
+}
+.for-all2{
+  animation: appear2 5s linear both;
+}
+.for-all3{
+  animation: appear3 1s ease both;
+}
+.fix{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.hex{
+display: inline-flex;
+position: relative;
+height: 230px;
+justify-content: center;
+padding: 0 20px;
+  margin: 60px 45px 0;
+width: 200px;
+color: white;
+}
+.hall{
+  background-color:  #01c5c4;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.h1{
+  animation-delay: -1.2s;
+    opacity: 0;
+}
+.h2{
+  animation-delay: -1s;
+    opacity: 0;
+}
+.h3{
+  animation-delay: -0.8s;
+    opacity: 0;
+}
+.h4{
+  animation-delay: -0.6s;
+    opacity: 0;
+}
+.about i{
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+.head1{
+  animation-delay: -4.7s;
+}
+.head2{
+  animation-delay: -4.6s;
+}
+.head3{
+  animation-delay: -4.5s;
+}
+.head4{
+  animation-delay: -4.4s;
+}
+.about h2{
+  position: absolute;
+     bottom: 40px;
+     right: 0;
+     left: 0;
+     opacity: 0;
+     font-size: 1.7rem;
+     font-family: 'Roboto', sans-serif;
+     color: #30475e;
+}
+.about-para{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: #30475e;
+   opacity: 0;
+}
+.aboutSecondLine{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-div{
+  text-align: center;
+ background-color: white;
+ margin: auto;
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-left: 50px;
+opacity: 0;
+display: inline-block;
+}
+.Image{
+  display: inline-block;
+  background-color: #aaaaaa;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+ opacity: 0;
+ margin-top: 10px;
+ margin-bottom: 100px;
+}
+.Image p{
+  line-height: 10px;
+}
+.Image img{
+  height: 250px;
+}
+.progress-bar{
+  height: 30px;
+  width: 550px;
+  margin: auto;
+  background-color:#e8e8e8;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+.skill{
+  position: absolute;
+  left: 0;
+  display: flex;
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #01c5c4;
+  color: white;
+  font-family: sans-serif;
+}
+.progress1{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress2{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress3{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress4{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress5{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress6{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress7{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+.progress8{
+  position: absolute;
+  left: 100px;
+  height: 30px;
+  background-color: #04a1a6;
+  width: 0;
+  transition: 1s;
+}
+/* projects */
+.projects{
+  background-color: #f6f6f6;
+  height: 1000px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.projectText{
+  padding-top: 105px;
+  margin: 0;
+  opacity: 0;
+  font-size: 50px;
+}
+
+/* profiles */
+.profiles{
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.profileText{
+  padding-top: 105px;
+  margin: 0;
+  font-size: 50px;
+}
